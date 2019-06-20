@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/useremaillogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:textSize="24dp"
+        android:textColor="@color/skyblue"
+        android:hint="Enter Email-Id"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/userpasslogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="sans-serif-black"
+        android:ems="10"
+        android:textColor="@color/skyblue"
+        android:textSize="24dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Login"
+        android:onClick="btn_loginclick"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
